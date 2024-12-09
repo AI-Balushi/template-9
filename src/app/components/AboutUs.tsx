@@ -1,21 +1,22 @@
 import Image from "next/image";
 
 const AboutUs = () => (
-  <section className="container mx-auto px-6 py-16 bg-black"> {/* Set background color to black */}
-    <div className="flex flex-col md:flex-row items-center md:items-start">
+  <section className="w-full h-full bg-black py-16">
+    <div className="container mx-auto px-6 flex flex-col md:flex-row items-center md:items-start">
       {/* Left Side: Text Content */}
-      <div className="md:w-1/2">
+      <div className="md:w-1/2 relative">
         {/* Image above the text */}
-        <div className="absolute top-[-50px] left-0 w-[249px] h-[40px]">
+        <div className="absolute top-[-30px] left-0 w-[149px] h-[30px]">
           <Image
-            src="/images/home1.png" // Image path
+            src="/images/about-us.png" // Image path
             alt="Small decorative"
-            width={249} // Image width
-            height={40} // Image height
-            className="object-cover" // Ensure the image covers the box properly
+            width={149} // Reduced image width
+            height={30} // Reduced image height
+            className="object-cover"
           />
         </div>
-
+        <br />
+        {/* Text Content */}
         <h3 className="text-4xl md:text-5xl font-helvetica font-extrabold mb-2 text-left underline decoration-transparent decoration-skip-ink text-white">
           <span className="text-orange-500">We</span> Create the Best
         </h3>
@@ -29,8 +30,8 @@ const AboutUs = () => (
       </div>
 
       {/* Right Side: Images */}
-      <div className="md:w-1/2 mt-10 md:mt-0 grid grid-cols-2 gap-4">
-        <div className="col-span-2">
+      <div className="md:w-1/2 mt-10 md:mt-0 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
           {/* Top Image */}
           <img
             src="/images/about1.png"
