@@ -1,20 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* global styles in globals.css or tailwind.css */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Helvetica:wght@400;600&display=swap');
-
-body {
-  font-family: 'Helvetica', 'Inter', sans-serif;
-  background-color: #000; /* Black background */
-  color: #fff; /* White text */
+@layer base {
+  :root {
+    --font-great-vibes: 'Great Vibes', cursive;
+  }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Helvetica', 'Arial', sans-serif;
+.font-great-vibes {
+  font-family: var(--font-great-vibes);
 }
 
-p, span, div {
-  font-family: 'Inter', sans-serif;
-}
+
