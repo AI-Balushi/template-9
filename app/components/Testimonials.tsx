@@ -7,7 +7,7 @@ const Testimonials = () => {
     {
       id: 1,
       image: '/testimonial1.png',
-      name: 'Alamin Hasan',
+      name: 'Abdul Waheed',
       role: 'Food Specialist',
       rating: 4,
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.'
@@ -15,7 +15,7 @@ const Testimonials = () => {
     {
         id: 2,
         image: '/testimonial1.png',
-        name: 'Alamin Hasan',
+        name: 'Abdul Waheed',
         role: 'Food Specialist',
         rating: 4,
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.'
@@ -23,7 +23,7 @@ const Testimonials = () => {
       {
         id: 3,
         image: '/testimonial1.png',
-        name: 'Alamin Hasan',
+        name: 'Abdul Waheed',
         role: 'Food Specialist',
         rating: 4,
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.'
@@ -31,7 +31,7 @@ const Testimonials = () => {
     {
         id: 4,
         image: '/testimonial1.png',
-        name: 'Alamin Hasan',
+        name: 'Abdul Waheed',
         role: 'Food Specialist',
         rating: 4,
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.'
